@@ -1,0 +1,29 @@
+* {
+    color: #ececeb;
+
+    &::selection {
+        background-color: #649e13;
+    }
+
+    &::-moz-selection {
+        background-color: #649e13;
+    }
+}
+
+.course-heading {
+    color: #95de19;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 12px 0px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.lecture-heading {
+    margin: 6px 0px;
+}
+
+.lecture-content {
+    font-size: 16px;
+}

@@ -1,0 +1,19 @@
+.button {
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-size: 16px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+    &-secondary {
+        background-color: transparent;
+        color: #649e13;
+        border: 1px solid #649e13;
+
+        &:hover {
+            background-color: #649e13;
+            color: #030403;
+        }
+    }
+}
