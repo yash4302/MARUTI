@@ -16,4 +16,33 @@
             color: #030403;
         }
     }
+
+    &-tab {
+        padding: 12px;
+        text-align: left;
+        background-color: rgba(37, 150, 190, 0.1);
+        width: 100%;
+        color: #ececeb;
+        border: none;
+
+        &:hover {
+            background-color: rgba(37, 150, 190, 0.25);
+        }
+
+        &:active {
+            background-color: rgba(37, 150, 190, 0.35);
+        }
+
+        &-active {
+            background-color: rgba(124, 191, 28, 0.5);
+
+            &:hover {
+                background-color: rgba(124, 191, 28, 0.65);
+            }
+
+            &:active {
+                background-color: rgba(124, 191, 28, 0.8);
+            }
+        }
+    }
 }

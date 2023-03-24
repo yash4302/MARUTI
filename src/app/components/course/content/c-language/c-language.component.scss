@@ -1,0 +1,27 @@
+.content-wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 6px 0px 0px 6px;
+}
+
+.content-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lecture-content {
+  height: calc(100% - 54px);
+  margin: 6px 0px 0px;
+  overflow-y: scroll;
+}
+
+.video-frame {
+  display: block;
+  width: 65%;
+  height: 65%;
+  margin: 6px auto 12px;
+  border-radius: 5px;
+  border: 2px solid rgba(37, 150, 190, 0.25); // #a1a2a0
+}
